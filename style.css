@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+
+
+
+
+body{
+
+
+
+    background-color: #3d9eed;
+
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  background-color: 0;
+  margin: 0px;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  background-color: 0;
+  margin: 0px;
+}
+
+
+.flex-container-row > div {
+  background-color: #3d9eed;
+  margin: 0px;
+  padding: 0px;
+  font-size: 50px;
+  font-family: 'Futura Classic W01 Bold' ;
+  color: white;
+
+
+}
+
+@font-face {
+  font-family: 'Futura Classic W01 Bold';
+  src: url("Futura Classic W01 Bold.ttf");
+
+
+}
+
+.pd60{
+
+padding: 60px;
+
+
+}
+
+
+.pd120{
+
+padding-left: 60;
+padding-top: 550px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+}
