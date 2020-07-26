@@ -31,7 +31,7 @@ let eye_size = windowHeight/15;
 ygap +=eye_size*2;
 
 }
-windowResized();
+
 
 }
 
