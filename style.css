@@ -52,8 +52,8 @@ padding: 60px;
 .name{
 
 padding-left: 60;
-padding-bottom: 30;
+padding-bottom: 30px;
 justify-content: flex-end;
-font-size: 20px;
+font-size: 16px;
 font-family: 'Poppins', sans-serif;
 }
