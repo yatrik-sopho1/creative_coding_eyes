@@ -1,7 +1,6 @@
 
 
 
-
 body{
   margin: 0;
   padding: 0;
@@ -42,8 +41,8 @@ body{
 
 }
 
-.pd60{
-
+.content{
+height:80%;
 padding: 60px;
 
 
@@ -53,7 +52,8 @@ padding: 60px;
 .name{
 
 padding-left: 60;
-padding-top: 450px;
+padding-bottom: 30;
+justify-content: flex-end;
 font-size: 20px;
 font-family: 'Poppins', sans-serif;
 }
