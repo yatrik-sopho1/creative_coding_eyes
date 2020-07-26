@@ -1,5 +1,8 @@
-html,
-
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #3d9eed;
+}
 
 
 .flex-container-row {
@@ -43,10 +46,10 @@ padding: 60px;
 }
 
 
-.pd120{
+.name{
 
 padding-left: 60;
-padding-top: 500px;
+padding-top: 450px;
 font-size: 20px;
 font-family: 'Poppins', sans-serif;
 }
