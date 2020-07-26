@@ -1,4 +1,4 @@
-let e01;
+
 
 let eyes = [];
 var nr;
@@ -17,6 +17,7 @@ let eye_size = windowHeight/15;
  ygap=windowHeight/8.5;
 
   noStroke();
+  noCursor();
 
   for(let j = 0 ; j<nc ; j++){
     xgap=canvas_width/7;
@@ -30,8 +31,7 @@ let eye_size = windowHeight/15;
 ygap +=eye_size*2;
 
 }
-
-
+windowResized();
 
 }
 
@@ -46,6 +46,9 @@ function draw() {
     eyes[i].update(mouseX,mouseY);
     eyes[i].display();
   }
+
+  fill(255,80);
+  ellipse(mouseX,mouseY,40);
 
 
 
