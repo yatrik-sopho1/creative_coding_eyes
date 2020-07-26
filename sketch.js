@@ -14,7 +14,7 @@ let eye_size = windowWidth/25;
  nr = canvas_width/(eye_size*4);
  nc = windowHeight/(eye_size/5);
  xgap=canvas_width/7;
- ygap=windowHeight/18;
+ ygap=windowHeight/8;
 
   noStroke();
   noCursor();
@@ -28,7 +28,7 @@ let eye_size = windowWidth/25;
 
     }
 
-ygap +=eye_size*2;
+ygap +=eye_size*2.1;
 
 }
 
