@@ -32,7 +32,7 @@ ygap +=eye_size*2;
 }
 
 
-windowResized();
+//windowResized();
 }
 
 
