@@ -1,4 +1,4 @@
-
+let e01;
 
 let eyes = [];
 var nr;
@@ -10,11 +10,11 @@ var canvas =  createCanvas(windowWidth/2, windowHeight);
 
 
 let canvas_width = windowWidth/2;
-let eye_size = windowHeight/15;
+let eye_size = windowWidth/25;
  nr = canvas_width/(eye_size*4);
- nc = windowHeight/(eye_size/2);
+ nc = windowHeight/(eye_size/5);
  xgap=canvas_width/7;
- ygap=windowHeight/8.5;
+ ygap=windowHeight/18;
 
   noStroke();
   noCursor();
@@ -31,7 +31,7 @@ let eye_size = windowHeight/15;
 ygap +=eye_size*2;
 
 }
-
+//windowResized();
 
 }
 
@@ -55,6 +55,3 @@ function draw() {
 }
 
 
-function windowResized() {
-  resizeCanvas(windowWidth/2, windowHeight);
-}
