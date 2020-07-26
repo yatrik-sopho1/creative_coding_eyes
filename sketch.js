@@ -31,7 +31,7 @@ let eye_size = windowWidth/25;
 ygap +=eye_size*2;
 
 }
-//windowResized();
+
 
 }
 
@@ -53,5 +53,3 @@ function draw() {
 
 
 }
-
-
